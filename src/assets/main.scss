@@ -1,0 +1,23 @@
+@import "./tailwind.css";
+
+body {
+  @apply bg-gray-300;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+.data-list {
+  @apply grid grid-cols-4 gap-4 bg-gray-400 p-4;
+  li {
+    @apply bg-gray-700 text-gray-300 text-lg p-4;
+  }
+}
+
+nav {
+  @apply text-lg p-2 bg-indigo-500 flex justify-between px-4 mt-8;
+  a {
+    @apply text-white;
+  }
+}
